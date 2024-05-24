@@ -51,7 +51,7 @@ plt.imshow(image_egalise, cmap = "gray");
 plt.title("Image égalisée")
 
 plt.figure()
-plt.plot(densite(hist(image_egalise)))
+plt.plot(densite(hist(image_egalise)))  
 plt.title("Densité image égalisée")
 
 plt.show()
