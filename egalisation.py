@@ -27,6 +27,7 @@ def egaliser(im):
 
 # Charger l'image en couleur
 image = cv2.imread('imagesTP/rue.jpg')
+image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 histo_image = hist(image)
 densite_image = densite(histo_image)
 image_egalise = egaliser(image)
